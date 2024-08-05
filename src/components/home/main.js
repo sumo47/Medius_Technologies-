@@ -6,6 +6,7 @@ import hero from './images/hero-variant-c.webp'
 import insurance from './images/insurance.webp'
 import one from './images/one-day-mortgage.webp'
 import still from './images/still-quote-Arian.webp'
+import { Link } from 'react-router-dom'
 
 function Main() {
     return (
@@ -54,8 +55,8 @@ function Main() {
                                                     href="/mortgage-rates">Purchase rates</a></li>
                                                 <li><a class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                                                     href="/how-much-house-can-i-afford">Affordability calculator</a></li>
-                                                <li><a class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
-                                                    href="/mortgage-calculator">Mortgage calculator</a></li>
+                                                <li><Link class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                                                    to="/mortgage-calculator">Mortgage calculator</Link></li>
                                                 <li><a class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                                                     href="/rent-vs-buy-calculator/">Rent vs buy calculator</a></li>
                                                 <li><a class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
